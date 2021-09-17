@@ -1,0 +1,54 @@
+.top-wrapper {
+  height: 280px;
+  width: 100%;
+  background: url("../img/mv.png") no-repeat center/cover;
+  text-align: center;
+  position: relative;
+}
+
+.top-wrapper h1 {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+form {
+  width: 75%;
+  margin: 72px auto 0;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  padding-top: 14px;
+}
+
+form label:nth-of-type(n+2):after {
+  content: " *";
+  color: #f82a51;
+}
+
+form input, form textarea {
+  width: 100%;
+  line-height: 24px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #dedede;
+  resize: none;
+}
+
+form input:last-of-type {
+  width: 280px;
+  margin: 32px auto 84px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  line-height: 42px;
+  font-weight: bold;
+  cursor: pointer;
+}
+

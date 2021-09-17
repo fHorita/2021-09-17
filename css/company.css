@@ -1,0 +1,43 @@
+.top-wrapper {
+  height: 280px;
+  width: 100%;
+  background: url("../img/mv.png") no-repeat center/cover;
+  text-align: center;
+  position: relative;
+}
+
+.top-wrapper h1 {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+table {
+  width: 85%;
+  margin: 72px auto 0;
+  border-bottom: 1px solid black;
+}
+
+table tr {
+  border-top: 1px solid black;
+}
+
+table tr td {
+  line-height: 64px;
+}
+
+table tr td:first-of-type {
+  text-align: center;
+  font-weight: bold;
+  width: 360px;
+}
+
+@media (max-width: 768px) {
+    table tr td:first-of-type {
+    width: 200px;
+  }
+
+}

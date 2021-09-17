@@ -1,0 +1,45 @@
+.top-wrapper {
+  height: 280px;
+  width: 100%;
+  background: url("../img/mv.png") no-repeat center/cover;
+  text-align: center;
+  position: relative;
+}
+
+.top-wrapper h1 {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.news {
+  margin-top: 72px;
+}
+
+.news > p {
+  margin: 0 auto 14px;
+  height: 64px;
+  width: 85%;
+  border: 1px solid black;
+  transition: opacity .3s;
+}
+
+.news > p:hover {
+  opacity: .6;
+}
+
+.news > p a {
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  line-height: 64px;
+  color: black;
+  padding: 0 18px;
+}
+
+.news > p a span {
+  font-weight: bold;
+}

@@ -1,0 +1,57 @@
+.top-wrapper {
+  height: 280px;
+  width: 100%;
+  background: url("../img/mv.png") no-repeat center/cover;
+  text-align: center;
+  position: relative;
+}
+
+.top-wrapper h1 {
+  color: #fff;
+  font-size: 2em;
+  position: absolute;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+
+.recruit-wrapper {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.recruit-wrapper >div h3 {
+  font-size: 28px;
+  margin-top: 72px;
+  border-bottom: 1px solid black;
+  padding-bottom: 8px;
+}
+
+.recruit-wrapper >div p {
+  padding: 24px 0;
+}
+
+table {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  width: 100%;
+}
+
+table tr {
+  border-top: 1px solid black;
+}
+
+table tr td {
+  border-right: 1px solid black;
+  line-height: 48px;
+}
+
+table tr td:first-of-type {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f0f0f0;
+}
+
+table tr td:last-of-type {
+  padding-left: 18px;
+}
